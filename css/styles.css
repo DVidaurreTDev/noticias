@@ -16,6 +16,10 @@
 
 /* section banner */
 
+.noticias-section-banner-image {
+    text-align: right;
+}
+
 .noticias-section-banner {
     padding-top: 123px;
     padding-bottom: 34px;
@@ -148,13 +152,18 @@
 }
 
 /* section footer */
-ul {
+
+.noticias-section-footer-img {
+    text-align: center;
+}
+
+.noticias-footer-list {
 	position: relative;
 	list-style: none;
 	margin-left: 0;
 	padding-left: 1.2em;
 }
-ul li:before {
+.noticias-footer-list li:before {
 	content: "+";
 	position: absolute;
 	left: 0;
@@ -177,8 +186,21 @@ ul li:before {
 
 @media (max-width: 600px) {
 
-    .noticias-section-title {
+    .noticias-section-title, .noticias-section-mail {
         text-align: center;
     }
-
+    .noticias-section-banner__h1 {
+        font-family: "Museo Slab";
+        font-weight: 700;
+        font-size: 35px;
+        color: #E5738D;
+        text-align: center;
+    }
+    .noticias-section-banner-image {
+        text-align: center;
+        padding-top: 30px;
+    }
+    .noticias-section-footer-img {
+        text-align: left;
+    }
 }
