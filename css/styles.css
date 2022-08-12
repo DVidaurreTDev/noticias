@@ -197,8 +197,16 @@
     background-color: black;
 }
 
+.card-dark-mode {
+    background-color: #141619;
+}
+
+.page-link-dark-mode {
+    background-color: #141619;
+}
+
 .text-dark-mode {
-    color: white;
+    color: white !important;
 }
 
 /* mediaquery Mobile */
