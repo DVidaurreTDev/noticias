@@ -13,24 +13,6 @@
     font-weight: 300;
     src: url("../fonts/Museo_Slab_300.otf") format("opentype");
 }
-/* section dark mode */
-
-.noticias-section-darkmode{
-    padding-top: 30px;
-}
-
-.noticias-section-darkmode--btn{
-    background-color: black;
-    color: white;
-}
-
-.dark-mode {
-    background-color: black;
-}
-
-.text-dark-mode {
-    color: white !important;
-}
 
 /* section banner */
 
@@ -198,6 +180,25 @@
 
 .noticias-section-footer__a {
     color: #C3E7EC;
+}
+
+/* section dark mode */
+
+.noticias-section-darkmode{
+    padding-top: 30px;
+}
+
+.noticias-section-darkmode--btn{
+    background-color: black;
+    color: white;
+}
+
+.dark-mode {
+    background-color: black;
+}
+
+.text-dark-mode {
+    color: white;
 }
 
 /* mediaquery Mobile */

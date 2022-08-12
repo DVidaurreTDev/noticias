@@ -9,6 +9,8 @@ const toggleDarkMode = () => {
     let body = document.querySelector("body")
     body.classList.toggle("dark-mode")
 
-    let text = document.querySelector("p")
-    text.classList.toggle("text-dark-mode")
+    let pItems = document.querySelectorAll(".p-toggle");
+    pItems.forEach(element => {
+        element.classList.toggle("text-dark-mode")
+    });
 }
